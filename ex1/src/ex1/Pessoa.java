@@ -33,8 +33,8 @@ public class Pessoa {
 	}
 
 	public void info() {
-		System.out
-				.println("Name: " + getName() + "\n" + "Birthday: " + getBirthDate() + "\n" + "Height: " + getHeight());
+		String info = "Name: " + getName() + "\n" + "Birthday: " + getBirthDate() + "\n" + "Height: " + getHeight();
+		System.out.println(info);
 	}
 
 	public int calculateAge() {
