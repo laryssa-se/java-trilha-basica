@@ -1,0 +1,2 @@
+module javaColletions {
+}
